@@ -1,0 +1,83 @@
+header {
+  width: 100%;
+  height: 250px;
+  background-image: url("./backg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+#nour {
+  width: 200px;
+  height: 200px;
+  border-radius: 180px;
+  margin: 25px;
+}
+#nour2{
+
+  position: relative;
+}
+#nour3{
+  width: 63px;
+  top: 38px;
+  left: 88px;
+  position: absolute;
+  transform: rotate(10deg);
+  display: none;
+}
+#no h1:hover {
+   color: white; 
+}
+
+ 
+.espacement_l {
+  margin-left: 10px;
+}
+.nejma {
+  color: rgb(255, 251, 0);
+}
+.espacement_r {
+  margin-right: 10px;
+}
+#no h1 {
+  margin-top: 87px;
+  color: rgb(196, 102, 39);
+}
+#no p {
+  color: rgb(196, 102, 39);
+  font-size: 27px;
+}
+#non {
+  width: 100%;
+  display: flex;
+}
+#section1 {
+  width: 40%;
+  margin: 40px;
+}
+#section1 p {
+  font-size: 20px;
+}
+#section2 {
+  margin-top: 40px;
+  width: 60%;
+}
+#section2 p {
+  font-size: 20px;
+}
+#cont {
+  font-family: "Changa", sans-serif;
+  background: #70e1f5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffd194,
+    #70e1f5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffd194,
+    #70e1f5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-left: 10%;
+  margin-right: 10%;
+}

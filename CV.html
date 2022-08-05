@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400&display=swap"
+            rel="stylesheet">
+
+        <link rel="stylesheet" href="./cv.css">
+        <link rel="stylesheet" href="./css/all.min.css">
+    </head>
+    <body>
+        <div id="cont">
+            <header>
+
+                <div id="nour2">
+                    <img src="./nour..jpg" id="nour" alt="test">
+                    <img src="./su.png"  id="nour3" alt="test">
+                </div>
+                <div id="no">
+                    <h1>Nour Chehida</h1>
+                    <p id="test">Etudiante.</p>
+                </div>
+
+            </header>
+            <div id="non">
+                <div id="section1">
+                    <h1>Profile</h1>
+                    <p>Je suis une etudiante au faculte des ingenieures Esprit
+                    </p>
+                    <h1>Contact</h1>
+                    <p><i class="fa-solid fa-phone espacement_l espacement_r"></i>num
+                        de tel:29705733</p>
+                    <p><i class="fa-solid fa-at espacement_l espacement_r "></i>nour.chehida@esprit.tn</p>
+                    <h1>Competences</h1>
+                    <p>Travail en equipe</p>
+                    <h1>Langues</h1>
+                    <p>Francais <i class="fa-solid fa-star nejma"></i><i
+                            class="fa-solid fa-star nejma"></i><i
+                            class="fa-solid fa-star nejma"></i><i
+                            class="fa-light fa-star nejma"></i></p>
+                    <p>Anglais <i class="fa-solid fa-star nejma"></i><i
+                            class="fa-solid fa-star nejma"></i><i
+                            class="fa-light fa-star nejma"></i><i
+                            class="fa-light fa-star nejma"></i></p>
+                    <p>Allemand <i class="fa-solid fa-star nejma"></i><i
+                            class="fa-light fa-star nejma"></i><i
+                            class="fa-light fa-star nejma"></i><i
+                            class="fa-light fa-star nejma"></i></p>
+                </div>
+                <div id="section2">
+                    <h1>Formation</h1>
+
+                    <h1>Experiences professionnelles</h1>
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <script src="./jquery-3.6.0.min.js"></script>
+        <script>
+            // avec jquery
+            $(document).ready(function(){
+                $('#no p').on('mouseenter',function(){
+                    $('#no p').hide();
+                })
+                $('#no p').on('mouseleave',function(){
+                    $('#no p').show();
+                })
+               
+                $('#nour2').on('mouseenter',function(){
+                    $('#nour3').show();
+                })
+           
+               
+                $('#nour2').on('mouseleave',function(){
+                    $('#nour3').hide();
+                })
+            })
+            // sans jquery
+         /*   var text=document.getElementById('test');
+            text.addEventListener('mouseenter', e => {
+            text.style.visibility="hidden";
+})
+            var text=document.getElementById('test');
+            text.addEventListener('mouseleave', e => {
+            text.style.visibility="visible";*/
+
+        </script>
+    </body>
+</html>
